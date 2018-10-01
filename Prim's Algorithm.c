@@ -1,3 +1,32 @@
+/*
+PRIM'S ALGORITHM BY SAURABH VERMA
+
+SAMPLE OUTPUT
+-------------
+
+Enter number of nodes : 5
+Enter Matrix (NxN):
+Enter distance between 1 and 0 5
+Enter distance between 2 and 0 1
+Enter distance between 2 and 1 6
+Enter distance between 3 and 0 99
+Enter distance between 3 and 1 4
+Enter distance between 3 and 2 2
+Enter distance between 4 and 0 99
+Enter distance between 4 and 1 99
+Enter distance between 4 and 2 4
+Enter distance between 4 and 3 3
+
+Enter initial vertex: 3
+
+RESULT
+(3, 2) = 2
+(2, 0) = 1
+(3, 4) = 3
+(3, 1) = 4
+
+*/
+
 #include<stdio.h>
 #define N 100
 typedef struct myEdge
