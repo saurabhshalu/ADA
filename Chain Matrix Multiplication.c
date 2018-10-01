@@ -1,3 +1,24 @@
+/*
+CHAIN MATRIX MULTIPLICATION BY SAURABH VERMA
+
+OUTPUT SAMPLE
+--------------
+Enter number of matrices: 6
+Enter dimensions
+Enter d0 : 4
+Enter d1 : 6
+Enter d2 : 7
+Enter d3 : 1
+Enter d4 : 2
+Enter d5 : 5
+Enter d6 : 9
+
+Minimum number of multiplications is 157
+(A*(B*C))*((D*E)*F)
+
+*/
+
+
 #include<stdio.h>
 #include<string.h>
 #define MAX 100
@@ -66,7 +87,7 @@ int main()
         if(i<n-1)
             result[c++] = '*';
     }
-    result[c] = ' ';
+    result[c] = ' '; //do not remove this line!
     int arr[++n];
     printf("Enter dimensions \n");
     for(i=0;i<n;i++)
