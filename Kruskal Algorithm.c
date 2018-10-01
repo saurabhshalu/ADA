@@ -1,3 +1,9 @@
+/*
+KRUSKAL ALGORITHM BY SAURABH VERMA
+
+Got implementation idea from somewhere on internet!
+*/
+
 #include<stdio.h>
 #define N 100
 typedef struct myEdge
