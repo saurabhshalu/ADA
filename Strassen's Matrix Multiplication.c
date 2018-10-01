@@ -1,3 +1,34 @@
+/*
+STRASSEN'S MATRIX MULTIPLICATION BY SAURABH VERMA
+
+Works upto 64x64 matrix
+
+SAMPLE OUTPUT
+-------------
+
+Enter number of rows and columns of first matrix
+4 3
+Enter elements of first matrix
+4 7 1
+6 2 7
+6 3 2
+7 5 9
+
+Enter number of rows and columns of second matrix
+3 3
+Enter elements of second matrix
+9 6 5
+8 5 4
+1 2 5
+
+Result of A x B
+93      61      53
+77      60      73
+80      55      52
+112     85      100
+
+*/
+
 #include<stdio.h>
 #define MAX 64
 typedef struct mat
